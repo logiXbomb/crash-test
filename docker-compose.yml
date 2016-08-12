@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  crash-test:
+    build:
+      context: .
+    ports:
+      - "80:3000"
